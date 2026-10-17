@@ -5,7 +5,7 @@ title: Semio privacy policy
 
 # Semio Privacy Policy
 
-_Last updated: 2026-10-17. Contact: jonathan@nullmening.org._
+_Last updated: 2026-10-18. Contact: jonathan@nullmening.org._
 
 Semio is an independent app. It is not affiliated with or endorsed by Duolingo, Scrimba or Oracle.
 "JavaScript" is used only to describe the programming language.
@@ -20,8 +20,13 @@ your phone. Android may include this data in your device backup (Google Drive) o
 transfer, according to your phone's backup settings; Semio does not receive it.
 
 ## Anonymous usage counts
-Semio counts that the app was opened and that a lesson was finished, with the kind of lesson, whether
-it was perfect, the app version and the Android version. Each count carries a random number made when
+Semio counts that the app was opened; that onboarding was finished, with the answers you picked there
+(why you are learning, your experience, your daily goal, whether you want a reminder and whether you
+took the level check); that the level check ended, with the section it placed you in and how many
+questions you got right; that a lesson, scrim or project step was finished, with the kind of lesson and
+whether it was perfect; that code was run in the playground; that a streak milestone was reached; that a
+quest was claimed; and that something was bought in the shop, with which item. Each count carries the
+app version and the Android version. Each count carries a random number made when
 the app starts; it is never stored and is forgotten when the app closes. Nothing in it identifies you or
 your phone, and no profile is built from it. The counts go to PostHog, on servers in the EU, which
 processes them on our behalf (https://posthog.com/privacy). Semio tells PostHog not to look up a
