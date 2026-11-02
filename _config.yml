@@ -1,5 +1,8 @@
 title: Semio
-description: Public privacy policy for Semio
+description: Privacy, data deletion and support for Semio
 theme: jekyll-theme-minimal
 url: https://snickers-bar74.github.io
 baseurl: /Semio-legal
+exclude:
+  - README.md
+  - LAUNCH-CHECKLIST.md
