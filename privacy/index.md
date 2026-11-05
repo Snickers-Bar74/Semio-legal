@@ -5,7 +5,7 @@ title: Semio privacy policy
 
 # Semio Privacy Policy
 
-_Last updated: 2026-10-24. Contact: jonathan@nullmening.org._
+_Release draft for review, 2026-11-05. Contact: jonathan@nullmening.org._
 
 Semio is an independent app. It is not affiliated with or endorsed by Duolingo, Scrimba or Oracle.
 "JavaScript" is used only to describe the programming language.
@@ -42,11 +42,15 @@ Counts are kept for at most one year.
 
 ## Crash reports
 When Semio crashes, it sends a crash report to Sentry, which processes it on our behalf
-(https://sentry.io/privacy/). A report contains the error and where in the code it happened, the app
+(https://sentry.io/privacy/). A report contains the error type and where in the code it happened, the app
 version, the phone model and Android version, and technical details such as memory and screen size at the
 time. It contains no name, account, email address, screenshot, your code or your progress, and Semio sets
 Sentry not to collect default personal data. Sentry may receive the connection's IP address to deliver the
 report. Reports are kept for up to 90 days.
+
+Semio filters error reports before sending. It excludes free-text exception messages, recent app
+actions, custom diagnostic fields, request and user data, and attachments. Automatic session tracking
+and native memory-dump collection are disabled.
 
 ## Permissions
 - **Notifications** (optional): daily reminders and widgets. Reminders are scheduled locally.
@@ -57,8 +61,9 @@ Code you write in the Playground and in lessons runs in a sandbox on your device
 The web preview has no network access.
 
 ## Narration
-Narration is pre-recorded audio bundled with the app; when a line has no clip, Android's own text-to-speech
-voice on your device reads it.
+Semio plays narration from audio bundled with the app. If a line has no clip, Semio tries an installed
+English Android text-to-speech voice that works offline. If that voice is unavailable or cannot speak,
+the lesson continues with timed captions.
 
 ## Children
 Optional usage counts are off by default for everyone, including children. The same Settings choice

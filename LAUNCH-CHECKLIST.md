@@ -7,6 +7,7 @@ See [the shared checklist](../LAUNCH-CHECKLIST.md).
 
 - Existing repository moved to `D:\Prosjekter\Legal\Semio-legal`; history/remotes and public base URL preserved.
 - Public privacy policy retained and checked against `../../Semio/docs/PRIVACY.md`.
+- The 5 November privacy revision is a review draft for the next signed release. Check the filtered Sentry payload and offline narration fallback on that build before publishing this revision.
 - Added support, data-deletion guidance and draft terms, linked from the home page.
 
 ## Data inventory and evidence
